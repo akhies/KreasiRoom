@@ -1,0 +1,35 @@
+:focus {
+  outline: none;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.bg-body {
+  background-color: $body-bg;
+}
+
+.border-body {
+  border-color: $body-bg;
+}
+
+.form-control.text-white::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.mx-input {
+  background-color: $body-bg;
+  &:disabled {
+    background-color: $gray-900;
+  }
+}

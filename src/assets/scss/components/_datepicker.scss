@@ -1,0 +1,16 @@
+.mx {
+  &-datepicker {
+    width: 100%;
+    &-popup {
+      z-index: 1100;
+    }
+  }
+  &-input {
+    border-color: $input-border-color;
+    &:disabled,
+    &.disabled {
+      color: $input-color;
+      background-color: $input-disabled-bg;
+    }
+  }
+}
